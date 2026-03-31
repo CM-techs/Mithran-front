@@ -1,0 +1,21 @@
+.card-img-top {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;   /* show full image */
+  background: #fff;
+  padding: 10px;
+  object-position: center;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .card-img-top {
+    height: 220px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 200px;
+  }
+}
